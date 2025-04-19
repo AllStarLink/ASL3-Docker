@@ -2,9 +2,13 @@ services:
   asl3_setup:
     build: .
     container_name: allstarlink3
+    ports:
+      - "4569:4569/udp"   # IAX2
+      - "5038:5038/tcp"   # Asterisk Manager Interface
+    privileged: true
+    restart: unless-stopped
     volumes:
       - ./asl3:/asl3
       - ./asterisk_conf:/etc/asterisk
       - ./asterisk_cust_sounds:/usr/local/share/asterisk/sounds
-    privileged: true
-    restart: unless-stopped
+
