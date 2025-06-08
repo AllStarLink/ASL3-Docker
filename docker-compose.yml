@@ -11,4 +11,5 @@ services:
       - ./asl3:/asl3
       - ./asterisk_conf:/etc/asterisk
       - ./asterisk_cust_sounds:/usr/local/share/asterisk/sounds
+      - ./asl_backups:/var/asl-backups
 

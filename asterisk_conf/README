@@ -1,0 +1,4 @@
+All Asterisk configuration will be stored here. This
+directory must be empty for a new composition of the
+container as asl3-asterisk-config doesn't like 
+when existing content is present.
