@@ -3,10 +3,11 @@ This is the Docker to run ASL3's asterisk as a Docker container. Note this is a 
 framework for running Asterisk as a container. While it's designed primarily for running ASL3
 it will, in fact, works a normal Asterisk system as well.
 
+Full instructions at https://community.allstarlink.org/t/docker-for-asterisk-app-rpt/23365/2
+
 ## Configuration
-The configuration of ASterisk is located in the `asterisk_conf` directory. This repo
-is populated with the basic configuration needed for an ASL3 system. Upon first composition
-of the container, the `asterisk_conf` directory will be populated by the other needed
+The configuration of ASterisk is located in the `asterisk_conf` directory.Upon first composition
+of the container, the `asterisk_conf` directory will be populated by  the needed
 configurations. This directory is used within the container as the `/etc/asterisk` directory.
 
 ## Building
