@@ -6,8 +6,8 @@ export DEBIAN_FRONTEND=noninteractive
 apt update
 apt upgrade -y
 apt install -y wget
-wget https://repo.allstarlink.org/public/asl-apt-repos.deb12_all.deb
-dpkg -i asl-apt-repos.deb12_all.deb
+wget https://repo.allstarlink.org/public/asl-apt-repos.deb13_all.deb
+dpkg -i asl-apt-repos.deb13_all.deb
 apt update
 
 # install kernel headers in preparation

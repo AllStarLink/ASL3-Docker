@@ -7,7 +7,7 @@ ARG ARCH="amd64"
 
 ##
 ## Debian version to compose - Supported options are '12-slim' and '12'
-ARG DEB_VER="12-slim"
+ARG DEB_VER="13-slim"
 
 ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ## Without experience, do not change past this line
